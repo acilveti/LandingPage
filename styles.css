@@ -1,11 +1,15 @@
-.flex-container {
-    /* display: flex; */
-  }
-  
-  /* this selector selects all divs inside of .flex-container */
-  .flex-container div {
+.container {
     background: peachpuff;
     border: 4px solid brown;
     height: 100px;
-    /* flex: 1; */
-  }
+  border: 4px solid indigo;
+  display: flex;
+}
+
+.item {
+  width: 60px;
+  height: 60px;
+  border: 4px solid darkslategray;
+  background: skyblue;
+}
+
