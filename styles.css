@@ -1,15 +1,15 @@
-.container {
+  .container {
     display: flex; 
-  }
-  
-  /* this selector selects all divs inside of .container */
-  .container div {
     background: peachpuff;
     border: 4px solid brown;
     height: 100px;
     flex: 1; 
   }
 
+  .vertical {
+    flex-direction: column;
+    flex: 1 1 auto; 
+  }
   .main{
     height: 500px; 
     flex-direction: column;
