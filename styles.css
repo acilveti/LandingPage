@@ -5,6 +5,13 @@
     
     flex: 1; 
     flex-direction: row;
+    
+    justify-content: center;
+  }
+
+  .project_picture {
+    height: auto;
+    width: 50px;
   }
 
   .vertical {
@@ -17,17 +24,28 @@
     flex: 1 ; 
   }
 
-  
+  .portfolio_display {
+    
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
 
   .dark {
     
-    background: grey;
-    color:white;
+    background: #1f2937;
+    color:#F9FAF8;
   }
 
   .light {
     
-    background: white;
-    color:black;
+    background: #E5E7EB;
+    color:#1F2937;
     
   }
+
+  img {
+    height: auto;
+    width: 50px;
+  }
+  
