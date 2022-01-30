@@ -54,4 +54,14 @@
     width: 300px;
   }
 
+  #social_media > div{
+    display:block
+  }
+
+  #social_media {
+    justify-content: center;
+    gap:40px;
+  }
+  
+
   
